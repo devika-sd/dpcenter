@@ -1,0 +1,57 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>suggestions</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content fullscreen>
+  <form>
+    <ion-list lines="full" class="ion-no-margin ion-no-padding">
+      <ion-item>
+        <ion-label position="stacked">Name <ion-text color="danger">*</ion-text></ion-label>
+        <ion-input required type="text"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="stacked">Email Id <ion-text color="danger">*</ion-text></ion-label>
+        <ion-input required type="Email"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="stacked">Phone Number <ion-text color="danger">*</ion-text></ion-label>
+        <ion-input required type="number"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="stacked">City <ion-text color="danger">*</ion-text></ion-label>
+        <ion-input required type="text"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="stacked">College Name <ion-text color="danger">*</ion-text></ion-label>
+        <ion-input required type="text"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>Departments</ion-label>
+        <ion-select interface="popover">
+          <ion-select-option value="Mechanical">Mechanical</ion-select-option>
+          <ion-select-option value="Civil">Civil</ion-select-option>
+          <ion-select-option value="EEE">EEE/E&I</ion-select-option>
+          <ion-select-option value="ECE">ECE</ion-select-option>
+          <ion-select-option value="CSE/IT">CSE/IT</ion-select-option>
+          <ion-select-option value="Management">Management</ion-select-option>
+        </ion-select>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="stacked">Message</ion-label>
+        <ion-textarea></ion-textarea>
+      </ion-item>
+    </ion-list>
+
+    <div class="ion-padding">
+      <ion-button expand="block" type="submit" class="ion-no-margin">Send</ion-button>
+    </div>
+  </form>
+</ion-content>
